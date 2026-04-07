@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Graduation Project" verbose="1" parallel="false" preserve-order="true">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="eyouthlearning" preserve-order="true">
+        <classes>
+            <class name="Tests.SearchTest"/>
+            <class name="Tests.CourseDetailsTest"/>
+            <class name="Tests.OpenRegistrationTest"/>
+            <class name="Tests.RegWithoutUsernameTest"/>
+            <class name="Tests.InvalidLoginTest"/>
+            <class name="Tests.EmptyLoginTest"/>
+            <class name="Tests.EndToEndTest"/>
+            <class name="Tests.FacebookLinkTest"/>
+            <class name="Tests.LinkedInTest"/>
+            <class name="Tests.TwitterTest"/>
+            <class name="Tests.CardItemsTest"/>
+        </classes>
+    </test>
+</suite>
